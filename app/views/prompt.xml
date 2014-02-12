@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="promptWin" title="Download Event" class="container" modal="true" top="20%" left="10%" width="60%" height="60%">
+		<TextField id="sessionName" hintText="Enter Event Name" top="20%"  width="90%" ></TextField>
+		<Button id="addButton" title="Import Event" top="40%"></Button>
+		<Button id="backButton" title="Cancel" top="60%"></Button>
+	</Window>
+</Alloy>

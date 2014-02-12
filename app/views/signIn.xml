@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="signWin" class="container" modal="true" top="20%" left="10%" width="60%" height="60%">
+		<TextField id="login" hintText="email" top="10%" width="90%"></TextField>
+		<TextField id="password" hintText="password" top="40%" width="90%"></TextField>
+		<Button id="signButton" title="Sign in" top="70%" left="5%"></Button>
+		<Button id="backButton" title="Cancel" top="70%" right="5%"></Button>
+	</Window>
+</Alloy>

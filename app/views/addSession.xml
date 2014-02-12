@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="addWin" title="Add Window" class="container" modal="true" top="10%" left="10%" width="80%" height="80%">
+		<TextField id="sessionName" hintText="Enter Event Name" top="5%" width="90%" ></TextField>
+		<TextField id="button1name" hintText="Enter Bird" top="17%" width="90%" ></TextField>
+		<TextField id="button2name" hintText="Enter Bird" top="29%" width="90%" ></TextField>
+		<TextField id="button3name" hintText="Enter Bird" top="41%" width="90%"></TextField>	
+		<TextField id="button4name" hintText="Enter Bird" top="53%" width="90%" ></TextField>
+		<TextField id="button5name" hintText="Enter Bird" top="65%" width="90%" ></TextField>
+		<Button id="addButton" title="Add/Edit Event" top="77%" left="10"></Button>
+		<Button id="deleteButton" title="Delete Event" top="77%" right="10"></Button>
+		<Button id="backButton" title="Cancel" top="89%"></Button>
+	</Window>
+</Alloy>

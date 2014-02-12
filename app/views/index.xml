@@ -1,0 +1,32 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Manage Events">
+			<Window title="win1" onFocus="getSessionData">
+				<Button id="signInButton" title="Sign In" onClick="signIn" top="0" width="31.5%" left="1%" height="13%"></Button>
+				<Button id="addSessionButton" title="Add/Edit Event" onClick="addSession" top="0" width="32.5%" left="33.5%" height="13%"></Button>
+				<Button id="loadSessionButton" title="Load Event" onClick="loadSession" top="0" width="31.5%" left="67.5%" height="13%"></Button>
+				<TableView id="sessionList" top="13.01%" onClick="sessionPopupInfo"></TableView>
+				
+			</Window>
+		</Tab>
+		<Tab title="Add Bird">
+			<Window title="win2" onFocus="checkSelectedA">
+				<!--<Button id="editButton" title="edit selections" width="200" top="0"></Button>-->
+				<Button id="button1" onClick="addButton1" width="50%" top="10.5%"></Button>
+				<Button id="button2" onClick="addButton2" width="50%" top="24.5%"></Button>
+				<Button id="button3" onClick="addButton3" width="50%" top="38.5%"></Button>
+				<Button id="button4" onClick="addButton4" width="50%" top="52.5%"></Button>
+				<Button id="button5" onClick="addButton5" width="50%" top="66.5%"></Button>
+				<!--<Button id="otherButton" title="Other" onClick="addButtonOther" width="200" top="220"></Button>-->
+			</Window>
+		</Tab>
+		<Tab title="Edit Event" onClick="checkSelectedB">
+			<Window title="win3" onFocus="getBirdData">
+				<TableView id="birdList" top="0" onClick="birdPopupInfo"></TableView>
+			</Window>
+		</Tab>
+		<Tab title="Exit" onClick="exitProgram">
+			<Window></Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
